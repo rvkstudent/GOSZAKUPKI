@@ -1,0 +1,124 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import urllib.request
+import urllib.parse
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver import ActionChains
+import pandas as pd
+from StyleFrame import StyleFrame
+from selenium.common.exceptions import TimeoutException
+
+main_url = "http://zakupki.gov.ru"
+
+def parse_page (driver, links):
+
+    datalist = []
+
+
+
+    driver.execute_script("window.open('');")
+    tabs = driver.window_handles
+    driver.switch_to.window(tabs[1])
+
+    for link in links:
+
+        proc_info = []
+
+        proc_info.append(link)
+
+
+        driver.get(link)
+
+        try:
+            wait = WebDriverWait(driver, 10)
+            wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, 'td')))
+
+        finally:
+            print('No exception')
+
+        elements = driver.find_elements_by_tag_name('td')
+
+        for el in elements:
+
+            has_protocols = True
+            ###### получаем URL ПРОТОКОЛА
+
+            if ('ПРОТОКОЛ' in el.text):
+                el.click()
+
+                try:
+                    wait = WebDriverWait(driver, 10)
+                    wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'toolTipMenu')))
+                except TimeoutException:
+                    has_protocols = False
+                finally:
+                    print('No exception')
+                if (has_protocols == True):
+                    hover_link = driver.find_elements_by_class_name('toolTipMenu')[0]
+                    hover = ActionChains(driver).move_to_element(hover_link)
+                    hover.perform()
+                    elements = driver.find_elements_by_tag_name('li')
+
+                    for el in elements:
+
+                        if ('Печат' in el.text):
+                            a = el.get_attribute('onclick')
+                            url_prorocol = "{}{}".format(main_url, a.split("\'")[1])
+                            print(url_prorocol)
+                            proc_info.append(url_prorocol.split("=")[1])
+
+                break
+
+            ###### Получаем Общие сведения о закупке
+
+        try:
+            wait = WebDriverWait(driver, 10)
+            wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, 'td')))
+        finally:
+            print('No exception')
+
+        elements = driver.find_elements_by_tag_name('td')
+
+        for el in elements:
+
+            if ('ОБЩАЯ' in el.text):
+                el.click()
+
+                try:
+                    wait = WebDriverWait(driver, 20)
+                    wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, 'td')))
+
+                finally:
+                    print('No exception')
+
+                tds = driver.find_elements_by_tag_name('td')
+
+                previous_element = ''
+
+                for el2 in tds:
+
+                    if ('ИНН' in previous_element):
+                        print('ИНН:' + el2.text)
+                        proc_info.append(el2.text)
+                    previous_element = el2.text
+
+                break
+
+        datalist.append(proc_info)
+
+
+    my_list = pd.DataFrame(datalist)
+
+    output_filename = 'C:\\myProg\\links.xlsx'
+
+    writer = StyleFrame.ExcelWriter(output_filename)
+
+    my_list.to_excel(writer, 'Исходные(текущие)', index=False)
+
+    writer.save()
+
+    driver.close()
+
+    return datalist
