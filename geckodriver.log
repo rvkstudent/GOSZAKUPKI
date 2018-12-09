@@ -2653,3 +2653,472 @@ IPDL protocol error: Handler returned error code!
 [Parent 8855, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
 [Parent 8855, Gecko_IOThread] WARNING: pipe error (97): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
 1544338461993	Marionette	INFO	Stopped listening on port 41205
+1544339009055	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7xLkHTJcargj"
+
+(firefox:11267): Gtk-WARNING **: 10:03:30.008: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:11267): Gtk-WARNING **: 10:03:30.008: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544339011779	Marionette	INFO	Listening on port 41807
+1544339011878	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544339051080	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6FAxQDx1jLU7"
+
+(firefox:12158): Gtk-WARNING **: 10:04:11.922: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:12158): Gtk-WARNING **: 10:04:11.922: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544339053436	Marionette	INFO	Listening on port 41601
+1544339053506	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11267, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 11267, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544339082169	Marionette	INFO	Stopped listening on port 41807
+1544339124675	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z5AGcgIYvCfC"
+
+(firefox:13032): Gtk-WARNING **: 10:05:25.531: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:13032): Gtk-WARNING **: 10:05:25.531: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544339127050	Marionette	INFO	Listening on port 43253
+1544339127097	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544339251149	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TkSGEJBsFJ4g"
+
+(firefox:13976): Gtk-WARNING **: 10:07:31.983: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:13976): Gtk-WARNING **: 10:07:31.983: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544339253489	Marionette	INFO	Listening on port 41719
+1544339253579	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544339374042	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zInzdxKawmjt"
+
+(firefox:14909): Gtk-WARNING **: 10:09:34.899: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:14909): Gtk-WARNING **: 10:09:34.899: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544339376392	Marionette	INFO	Listening on port 46469
+1544339376489	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544339473583	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1zaAhPhVuGsE"
+
+(firefox:15805): Gtk-WARNING **: 10:11:14.390: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15805): Gtk-WARNING **: 10:11:14.390: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544339475938	Marionette	INFO	Listening on port 34951
+1544339476010	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544339768575	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5Fih81ODHvDv"
+
+(firefox:16879): Gtk-WARNING **: 10:16:09.531: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:16879): Gtk-WARNING **: 10:16:09.531: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544339771075	Marionette	INFO	Listening on port 36445
+1544339771088	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544339817376	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NT82KOvJodUA"
+
+(firefox:17751): Gtk-WARNING **: 10:16:58.204: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:17751): Gtk-WARNING **: 10:16:58.204: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544339819711	Marionette	INFO	Listening on port 46171
+1544339819800	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544340234403	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.b7kq2WYFTN91"
+
+(firefox:18941): Gtk-WARNING **: 10:23:55.319: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:18941): Gtk-WARNING **: 10:23:55.319: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544340236796	Marionette	INFO	Listening on port 42235
+1544340236828	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 18941, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 18941, Gecko_IOThread] WARNING: pipe error (79): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544340245211	Marionette	INFO	Stopped listening on port 42235
+1544340281819	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tqXtpHBITyb8"
+
+(firefox:19864): Gtk-WARNING **: 10:24:42.717: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:19864): Gtk-WARNING **: 10:24:42.717: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544340284262	Marionette	INFO	Listening on port 35307
+1544340284344	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544340310014	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9eNigcFkA0Pp"
+
+(firefox:20715): Gtk-WARNING **: 10:25:10.828: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:20715): Gtk-WARNING **: 10:25:10.828: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544340312300	Marionette	INFO	Listening on port 35187
+1544340312348	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20715, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 20715, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544340320375	Marionette	INFO	Stopped listening on port 35187
+1544340339730	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XBOjolb0KUD1"
+
+(firefox:21604): Gtk-WARNING **: 10:25:40.538: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:21604): Gtk-WARNING **: 10:25:40.538: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544340342004	Marionette	INFO	Listening on port 45261
+1544340342056	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 21604, Gecko_IOThread] WARNING: pipe error (71): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544340349839	Marionette	INFO	Stopped listening on port 45261
+[Parent 17751, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 17751, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544340352226	Marionette	INFO	Stopped listening on port 46171
+[Parent 16879, Gecko_IOThread] WARNING: pipe error (84): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544340353316	Marionette	INFO	Stopped listening on port 36445
+[Parent 15805, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 15805, Gecko_IOThread] WARNING: pipe error (84): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544340354312	Marionette	INFO	Stopped listening on port 34951
+1544340355299	Marionette	INFO	Stopped listening on port 46469
+[Parent 13976, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 13976, Gecko_IOThread] WARNING: pipe error (64): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544340356335	Marionette	INFO	Stopped listening on port 41719
+[Parent 13032, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 13032, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544340357257	Marionette	INFO	Stopped listening on port 43253
+[Parent 19864, Gecko_IOThread] WARNING: pipe error (92): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544340360012	Marionette	INFO	Stopped listening on port 35307
+1544340529148	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.twSe0BlFFVee"
+
+(firefox:22636): Gtk-WARNING **: 10:28:50.023: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:22636): Gtk-WARNING **: 10:28:50.023: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544340531442	Marionette	INFO	Listening on port 42631
+1544340531465	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+1544340958218	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MYpVaZJXPc6i"
+
+(firefox:23826): Gtk-WARNING **: 10:35:59.015: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:23826): Gtk-WARNING **: 10:35:59.015: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544340960491	Marionette	INFO	Listening on port 35583
+1544340960534	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544341051839	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BHJPJLAOJ9ez"
+
+(firefox:24737): Gtk-WARNING **: 10:37:32.734: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:24737): Gtk-WARNING **: 10:37:32.734: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544341054271	Marionette	INFO	Listening on port 35523
+1544341054374	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 24737, Gecko_IOThread] WARNING: pipe error (84): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544341063370	Marionette	INFO	Stopped listening on port 35523
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+1544341649489	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pRKi61NXXciU"
+
+(firefox:26159): Gtk-WARNING **: 10:47:30.433: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:26159): Gtk-WARNING **: 10:47:30.433: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544341651946	Marionette	INFO	Listening on port 37409
+1544341652024	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544341704937	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zHXX7mydVg8X"
+
+(firefox:27048): Gtk-WARNING **: 10:48:25.781: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:27048): Gtk-WARNING **: 10:48:25.781: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544341707303	Marionette	INFO	Listening on port 40217
+1544341707353	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544341763243	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gjsxzY81RPpB"
+
+(firefox:27939): Gtk-WARNING **: 10:49:24.069: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:27939): Gtk-WARNING **: 10:49:24.069: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544341765561	Marionette	INFO	Listening on port 42227
+1544341765672	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 27939, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 27939, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544341773096	Marionette	INFO	Stopped listening on port 42227
+1544341797800	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iXFPHmIFgVAb"
+
+(firefox:28816): Gtk-WARNING **: 10:49:58.603: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:28816): Gtk-WARNING **: 10:49:58.603: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544341800072	Marionette	INFO	Listening on port 37869
+1544341800116	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544341827869	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zC3VcNYNy9of"
+
+(firefox:29678): Gtk-WARNING **: 10:50:28.750: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:29678): Gtk-WARNING **: 10:50:28.750: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544341830214	Marionette	INFO	Listening on port 37821
+1544341830301	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544342059733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ykQgQWBJ31Cx"
+
+(firefox:30782): Gtk-WARNING **: 10:54:20.596: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:30782): Gtk-WARNING **: 10:54:20.596: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544342062759	Marionette	INFO	Listening on port 34689
+1544342062921	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544342144138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.k81ZmQvpYo3f"
+
+(firefox:31767): Gtk-WARNING **: 10:55:45.056: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:31767): Gtk-WARNING **: 10:55:45.056: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544342146614	Marionette	INFO	Listening on port 41647
+1544342146660	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544342167603	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.z6CTl5PHpTsK"
+
+(firefox:32646): Gtk-WARNING **: 10:56:08.475: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:32646): Gtk-WARNING **: 10:56:08.475: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544342170049	Marionette	INFO	Listening on port 33833
+1544342170113	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 32646, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 32646, Gecko_IOThread] WARNING: pipe error (79): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342178452	Marionette	INFO	Stopped listening on port 33833
+1544342193231	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zfe4LbZKGa3z"
+
+(firefox:1251): Gtk-WARNING **: 10:56:34.154: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:1251): Gtk-WARNING **: 10:56:34.154: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544342195670	Marionette	INFO	Listening on port 34497
+1544342195749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544342215335	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hSfkKHAoaJMH"
+
+(firefox:2298): Gtk-WARNING **: 10:56:56.215: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:2298): Gtk-WARNING **: 10:56:56.215: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544342217882	Marionette	INFO	Listening on port 32977
+1544342217968	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544342249416	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.77P67iiXintK"
+
+(firefox:3148): Gtk-WARNING **: 10:57:30.266: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3148): Gtk-WARNING **: 10:57:30.266: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544342251942	Marionette	INFO	Listening on port 39049
+1544342252041	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3148, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 3148, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342261033	Marionette	INFO	Stopped listening on port 39049
+[Parent 1251, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 1251, Gecko_IOThread] WARNING: pipe error (97): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342263956	Marionette	INFO	Stopped listening on port 34497
+[Parent 31767, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 31767, Gecko_IOThread] WARNING: pipe error (86): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342265261	Marionette	INFO	Stopped listening on port 41647
+[Parent 30782, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 30782, Gecko_IOThread] WARNING: pipe error (84): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342266403	Marionette	INFO	Stopped listening on port 34689
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 28816, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 28816, Gecko_IOThread] WARNING: pipe error (84): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342267515	Marionette	INFO	Stopped listening on port 37869
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 29678, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 29678, Gecko_IOThread] WARNING: pipe error (86): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342268636	Marionette	INFO	Stopped listening on port 37821
+[Parent 27048, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342269636	Marionette	INFO	Stopped listening on port 40217
+[Parent 26159, Gecko_IOThread] WARNING: pipe error (92): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342270648	Marionette	INFO	Stopped listening on port 37409
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js, line 1294: Error: Connection closed, pending request to server1.conn0.child1/domnode123, type setNodeValue failed
+
+Request stack:
+request@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1351:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1505:14
+done/</</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/views/text-editor.js:50:13
+do@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/undo.js:72:11
+endBatch@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/undo.js:83:5
+do@resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/undo.js:96:5
+done/</<@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/markup/views/text-editor.js:49:11
+process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:928:23
+walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:812:29
+scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:748:11
+
+[Parent 23826, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 23826, Gecko_IOThread] WARNING: pipe error (99): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342271945	Marionette	INFO	Stopped listening on port 35583
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 12158, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 12158, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342273026	Marionette	INFO	Stopped listening on port 41601
+[Parent 22636, Gecko_IOThread] WARNING: pipe error (84): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544342274880	Marionette	INFO	Stopped listening on port 42631
+1544342490794	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vyjAW5X8T5bH"
+
+(firefox:4241): Gtk-WARNING **: 11:01:31.763: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4241): Gtk-WARNING **: 11:01:31.763: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544342493431	Marionette	INFO	Listening on port 46005
+1544342493512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544342593462	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5Za7tZae0inE"
+
+(firefox:5179): Gtk-WARNING **: 11:03:14.352: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5179): Gtk-WARNING **: 11:03:14.352: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544342595836	Marionette	INFO	Listening on port 40349
+1544342595882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544342610567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JyH8XvVonOpQ"
+
+(firefox:6030): Gtk-WARNING **: 11:03:31.412: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:6030): Gtk-WARNING **: 11:03:31.412: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544342612920	Marionette	INFO	Listening on port 37949
+1544342612981	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1272: TypeError: currentPanel is undefined
+1544342702039	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BYAn7Xc9UkPi"
+
+(firefox:6951): Gtk-WARNING **: 11:05:02.866: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:6951): Gtk-WARNING **: 11:05:02.866: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544342704324	Marionette	INFO	Listening on port 42161
+1544342704355	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+

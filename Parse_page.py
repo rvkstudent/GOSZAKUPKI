@@ -6,6 +6,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
+from lxml import html
+
 
 main_url = "http://zakupki.gov.ru"
 
@@ -30,7 +32,6 @@ def parse_page (driver, links):
         elements = driver.find_elements_by_tag_name('td')
 
         for el in elements:
-
 
             ###### получаем URL ПРОТОКОЛА
 
@@ -66,29 +67,69 @@ def parse_page (driver, links):
         finally:
             print('No exception')
 
-        elements = driver.find_elements_by_tag_name('td')
+        td_menu = driver.find_elements_by_tag_name('td')
 
-        for el in elements:
+        for tds in td_menu:
 
-            if ('ОБЩАЯ' in el.text):
-                el.click()
 
-            try:
-                wait = WebDriverWait(driver, 10)
-                wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'noticeBoxH2')))
 
-            finally:
-                print('No exception')
+            if ('ОБЩАЯ' in tds.text):
+                tds.click()
 
-            elements = driver.find_elements_by_tag_name('td')
+                try:
+                    wait = WebDriverWait(driver, 10)
+                    wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, 'td')))
 
-            previous_element = ''
+                finally:
+                    print('No exception')
 
-            for el in elements:
+                td_inside = driver.find_elements_by_tag_name('td')
 
-                if ('ИНН' in previous_element):
-                    print('ИНН:' + el.text)
-            previous_element = el.text
+                previous_element = ''
 
+                for tds_in in td_inside:
+
+                    if ('ИНН' in previous_element):
+                        print('ИНН:' + tds_in.text)
+                    if ('Наименование организации' in previous_element):
+                        print('Наименование организации:' + tds_in.text)
+                    if ('Дата размещения текущей редакции извещения' in previous_element):
+                        print('Дата размещения текущей редакции извещения:' + tds_in.text)
+                    if ('Наименование закупки' in previous_element):
+                        print('Наименование закупки:' + tds_in.text)
+
+
+                    previous_element = tds_in.text
+                break
+
+        ###### Получаем ДОКУМЕНТЫ
+
+        try:
+            wait = WebDriverWait(driver, 10)
+            wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, 'td')))
+        finally:
+            print('No exception')
+
+        td_menu = driver.find_elements_by_tag_name('td')
+
+        for tds in td_menu:
+
+            if ('ДОКУМЕНТЫ' in tds.text):
+                tds.click()
+
+                try:
+                    wait = WebDriverWait(driver, 10)
+                    wait.until(EC.presence_of_all_elements_located((By.TAG_NAME, 'td')))
+
+                finally:
+                    print('No exception')
+
+                elem = driver.find_element_by_xpath("//a[@class='epz_aware']")
+
+                print (elem.text)
+                print(elem.get_property('href'))
+
+
+                break
 
     driver.close()
