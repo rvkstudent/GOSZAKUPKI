@@ -3275,3 +3275,1490 @@ console.error: BroadcastService:
 1544363137433	Marionette	INFO	Listening on port 42577
 1544363137524	Marionette	WARN	TLS certificate errors will be ignored for this session
 1544363145357	Marionette	INFO	Stopped listening on port 42577
+1544541429486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jmo2754aNqRN"
+
+(firefox:9431): Gtk-WARNING **: 18:17:10.272: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9431): Gtk-WARNING **: 18:17:10.272: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544541432049	Marionette	INFO	Listening on port 37925
+1544541432136	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9536): dconf-WARNING **: 18:17:15.726: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:15.727: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:15.728: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:15.728: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:15.729: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:15.729: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:16.676: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:16.676: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:18.711: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:18.711: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:20.602: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:20.603: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:22.502: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:22.503: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:24.051: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:24.052: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:25.349: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:25.350: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:26.402: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:26.403: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:27.594: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:27.594: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:28.650: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:28.651: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:29.994: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:29.994: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:30.772: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:30.773: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:32.499: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:32.500: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:33.409: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:33.409: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:34.099: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:34.102: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:35.540: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:35.540: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:36.298: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:36.299: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:37.604: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:37.604: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:41.752: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:41.753: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:42.835: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:42.835: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:43.810: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:43.811: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:45.049: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:45.049: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:45.713: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:45.713: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:46.935: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:46.936: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:48.036: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:48.036: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:49.101: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:49.102: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:50.168: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:50.168: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:51.294: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:51.295: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:52.481: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:52.481: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:53.332: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:53.333: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:55.336: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:55.336: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:56.384: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:56.385: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:58.427: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:17:58.427: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:00.755: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:00.755: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:01.909: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:01.909: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:03.188: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:03.188: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:04.452: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:04.452: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:06.486: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:06.487: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:07.403: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:07.404: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:08.617: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:08.617: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:10.463: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:10.463: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:11.281: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:11.282: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:12.583: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:12.584: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:13.689: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:13.690: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:14.720: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:14.721: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:15.846: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:15.847: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:17.054: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:17.054: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:18.250: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:18.251: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:19.110: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:19.111: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:20.806: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+
+(/usr/lib/firefox/firefox:9536): dconf-CRITICAL **: 18:18:20.807: unable to create directory '/run/user/1000/snap.pycharm-community/dconf': Отказано в доступе.  dconf will not work properly.
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+1544541502428	Marionette	INFO	Stopped listening on port 37925
+1544541558299	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.eEhFoCakgZOV"
+
+(firefox:10362): Gtk-WARNING **: 18:19:19.106: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:10362): Gtk-WARNING **: 18:19:19.106: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544541560988	Marionette	INFO	Listening on port 34999
+1544541561038	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10462): dconf-WARNING **: 18:19:23.038: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1544541657928	Marionette	INFO	Stopped listening on port 34999
+1544541666426	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IifEpXUzeqej"
+
+(firefox:11260): Gtk-WARNING **: 18:21:07.306: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:11260): Gtk-WARNING **: 18:21:07.306: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544541668869	Marionette	INFO	Listening on port 33983
+1544541668955	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:11358): dconf-WARNING **: 18:21:11.901: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+1544542031415	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kimwN5DuOowF"
+
+(firefox:12224): Gtk-WARNING **: 18:27:12.230: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:12224): Gtk-WARNING **: 18:27:12.230: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544542033771	Marionette	INFO	Listening on port 35637
+1544542033829	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:12323): dconf-WARNING **: 18:27:17.400: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+[Parent 11260, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 11260, Gecko_IOThread] WARNING: pipe error (84): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544551127735	Marionette	INFO	Stopped listening on port 33983
+1544552305997	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sfSfl46u1hRE"
+
+(firefox:15280): Gtk-WARNING **: 21:18:26.839: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:15280): Gtk-WARNING **: 21:18:26.839: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544552308462	Marionette	INFO	Listening on port 38347
+1544552308508	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:15381): dconf-WARNING **: 21:18:31.491: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+1544553588896	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.imOwDqtrDe8C"
+
+(firefox:18469): Gtk-WARNING **: 21:39:49.806: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:18469): Gtk-WARNING **: 21:39:49.806: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544553591254	Marionette	INFO	Listening on port 33417
+1544553591312	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:18562): dconf-WARNING **: 21:39:55.366: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+[Parent 18469, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544555886142	Marionette	INFO	Stopped listening on port 33417
+[Parent 15280, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 15280, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544555887090	Marionette	INFO	Stopped listening on port 38347
+1544556324175	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ej1WW5zH035L"
+
+(firefox:21494): Gtk-WARNING **: 22:25:25.223: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:21494): Gtk-WARNING **: 22:25:25.223: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544556327388	Marionette	INFO	Listening on port 35187
+1544556327658	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:21601): dconf-WARNING **: 22:25:30.441: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 21494, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 21494, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544556632584	Marionette	INFO	Stopped listening on port 35187
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 12224, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 12224, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544556634273	Marionette	INFO	Stopped listening on port 35637
+1544556636746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sODqTTEdmxxf"
+
+(firefox:22624): Gtk-WARNING **: 22:30:37.844: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:22624): Gtk-WARNING **: 22:30:37.844: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544556640017	Marionette	INFO	Listening on port 38411
+1544556640094	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544556798687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kb4YC9NTlO6F"
+
+(firefox:23232): Gtk-WARNING **: 22:33:19.487: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:23232): Gtk-WARNING **: 22:33:19.487: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544556801048	Marionette	INFO	Listening on port 38889
+1544556801098	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:23335): dconf-WARNING **: 22:33:27.578: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: chrome://browser/content/urlbarBindings.xml, line 2709: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIAutoCompleteController.getStyleAt]
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+1544557301796	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bnlKZcvNZvCT"
+
+(firefox:24636): Gtk-WARNING **: 22:41:42.553: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:24636): Gtk-WARNING **: 22:41:42.553: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544557303958	Marionette	INFO	Listening on port 46327
+1544557304011	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:24737): dconf-WARNING **: 22:41:45.574: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+[Parent 24636, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 24636, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544557343237	Marionette	INFO	Stopped listening on port 46327
+1544557353558	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.O8cnXkcy5Asd"
+
+(firefox:25517): Gtk-WARNING **: 22:42:34.375: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:25517): Gtk-WARNING **: 22:42:34.375: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544557355840	Marionette	INFO	Listening on port 42183
+1544557355894	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:25618): dconf-WARNING **: 22:42:38.847: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+[Parent 25517, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 25517, Gecko_IOThread] WARNING: pipe error (92): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544557363128	Marionette	INFO	Stopped listening on port 42183
+1544557410417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vEjBff5RTiaA"
+
+(firefox:26420): Gtk-WARNING **: 22:43:31.258: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:26420): Gtk-WARNING **: 22:43:31.259: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544557412744	Marionette	INFO	Listening on port 38639
+1544557412847	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:26518): dconf-WARNING **: 22:43:37.595: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+1544557490010	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8lCn2WSTM5nf"
+
+(firefox:27323): Gtk-WARNING **: 22:44:50.809: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:27323): Gtk-WARNING **: 22:44:50.809: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544557492280	Marionette	INFO	Listening on port 34415
+1544557492330	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:27424): dconf-WARNING **: 22:44:54.063: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+[Parent 27323, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 27323, Gecko_IOThread] WARNING: pipe error (64): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544557498686	Marionette	INFO	Stopped listening on port 34415
+1544557528739	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.svyBZdi2UPOK"
+
+(firefox:28197): Gtk-WARNING **: 22:45:29.550: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:28197): Gtk-WARNING **: 22:45:29.550: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544557531114	Marionette	INFO	Listening on port 38299
+1544557531162	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:28297): dconf-WARNING **: 22:45:32.708: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+1544557548877	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8ctOrsAskntJ"
+
+(firefox:29042): Gtk-WARNING **: 22:45:49.676: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:29042): Gtk-WARNING **: 22:45:49.676: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544557551175	Marionette	INFO	Listening on port 36449
+1544557551198	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:29145): dconf-WARNING **: 22:45:52.455: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+[Parent 29042, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544557555955	Marionette	INFO	Stopped listening on port 36449
+1544557570630	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.16I3BXQ6Ji8s"
+
+(firefox:29908): Gtk-WARNING **: 22:46:11.392: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:29908): Gtk-WARNING **: 22:46:11.392: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544557572961	Marionette	INFO	Listening on port 36081
+1544557573047	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:30008): dconf-WARNING **: 22:46:14.338: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 29984, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544557736428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.imy2WQiXZq4V"
+
+(firefox:30902): Gtk-WARNING **: 22:48:57.309: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:30902): Gtk-WARNING **: 22:48:57.309: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544557738843	Marionette	INFO	Listening on port 38847
+1544557738958	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:31011): dconf-WARNING **: 22:49:00.326: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+[Parent 30902, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 30902, Gecko_IOThread] WARNING: pipe error (64): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544557760856	Marionette	INFO	Stopped listening on port 38847
+1544557868166	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lkLrDtmqY2Zo"
+
+(firefox:31943): Gtk-WARNING **: 22:51:08.940: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:31943): Gtk-WARNING **: 22:51:08.940: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544557870455	Marionette	INFO	Listening on port 33159
+1544557870477	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:32044): dconf-WARNING **: 22:51:11.804: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1F0016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+1544557903083	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.btrgl4qshMtO"
+
+(firefox:365): Gtk-WARNING **: 22:51:43.883: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:365): Gtk-WARNING **: 22:51:43.883: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544557905433	Marionette	INFO	Listening on port 45313
+1544557905496	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:466): dconf-WARNING **: 22:51:48.086: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+1544557929741	Marionette	INFO	Stopped listening on port 45313
+1544557997393	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.w1Pcgo3SjAGA"
+
+(firefox:1562): Gtk-WARNING **: 22:53:18.180: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:1562): Gtk-WARNING **: 22:53:18.180: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544557999624	Marionette	INFO	Listening on port 46665
+1544557999703	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:1671): dconf-WARNING **: 22:53:20.957: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1F0016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 1648, Chrome_ChildThread] WARNING: pipe error (3): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544558196268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IM11dOQ6IELT"
+
+(firefox:2977): Gtk-WARNING **: 22:56:37.081: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:2977): Gtk-WARNING **: 22:56:37.081: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544558198533	Marionette	INFO	Listening on port 44943
+1544558198585	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3079): dconf-WARNING **: 22:56:39.874: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+1544558237187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.abxN24Q3K2ZU"
+
+(firefox:3822): Gtk-WARNING **: 22:57:17.955: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:3822): Gtk-WARNING **: 22:57:17.956: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544558239464	Marionette	INFO	Listening on port 36077
+1544558239508	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:3923): dconf-WARNING **: 22:57:20.846: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1F0016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+1544558330477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3ZnTcLRaPYKp"
+
+(firefox:4739): Gtk-WARNING **: 22:58:51.312: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:4739): Gtk-WARNING **: 22:58:51.312: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544558332790	Marionette	INFO	Listening on port 37883
+1544558332886	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:4834): dconf-WARNING **: 22:58:54.272: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  remote-settings/monitor_changes
+  threw error:
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+[Parent 4739, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4739, Gecko_IOThread] WARNING: pipe error (65): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544558634827	Marionette	INFO	Stopped listening on port 37883
+1544558668576	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZZ2Z4c1yyjLR"
+
+(firefox:5872): Gtk-WARNING **: 23:04:29.365: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:5872): Gtk-WARNING **: 23:04:29.365: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544558670845	Marionette	INFO	Listening on port 37099
+1544558670890	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:5976): dconf-WARNING **: 23:04:32.105: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+[Parent 5872, Gecko_IOThread] WARNING: pipe error (78): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 5872, Gecko_IOThread] WARNING: pipe error (84): Соединение разорвано другой стороной: file /build/firefox-JcIUVH/firefox-63.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1544585611517	Marionette	INFO	Stopped listening on port 37099
+1544585704325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.X1G03PqSowU6"
+
+(firefox:23202): Gtk-WARNING **: 06:35:05.146: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:23202): Gtk-WARNING **: 06:35:05.146: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1544585706547	Marionette	INFO	Listening on port 46813
+1544585706665	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:23389): dconf-WARNING **: 06:35:09.391: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Отказано в доступе
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/PeerConnection.js, line 1894: TypeError: this._dompc._pc is undefined
