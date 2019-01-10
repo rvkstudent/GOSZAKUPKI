@@ -1,3 +1,4 @@
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import urllib.request
@@ -8,7 +9,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import ActionChains
 from Parse_page import parse_page
 from Gather_links import gather_links
-from Get_Ora_tender import get_tender_report
 import pandas as pd
 import datetime
 from pandas import ExcelWriter
@@ -18,7 +18,7 @@ import os
 search_phrase = list()
 
 
-f = open('phrase', 'rt', encoding='UTF8')
+f = open(os.path.join('/home/user/git_files/GOSZAKUPKI','phrase'))
 line = f.readline()
 while line:
     search_phrase.append(line)
@@ -36,10 +36,7 @@ params = urllib.parse.urlencode({'searchString': search_phrase, 'pageNumber': 1,
 
 url = "http://zakupki.gov.ru/epz/order/extendedsearch/results.html?%s" % params
 
-profile = webdriver.FirefoxProfile()
-profile.set_preference('network.proxy.type', 4)
-
-driver = webdriver.Firefox(firefox_profile=profile)
+driver = webdriver.Firefox()
 
 total_links = gather_links(driver, search_phrase)
 
@@ -47,11 +44,11 @@ total_links = gather_links(driver, search_phrase)
 
 #ora_tender = pd.read_excel("c:\\GOSZAKUPKI\\ora_tender_{}".format(datetime.datetime.now().date()) +".xlsx")
 
-zakupki_gov = pd.read_excel("c:\\GOSZAKUPKI\\links_{}".format(datetime.datetime.now().date()) +".xls", dtype={ 'Номер процедуры':str, 'Дата размещения':datetime.date,'Дата обновления':datetime.date })
+zakupki_gov = pd.read_excel("home/user/GOSZAKUPKI/links_{}".format(datetime.datetime.now().date()) +".xls", dtype={ 'Номер процедуры':str, 'Дата размещения':datetime.date,'Дата обновления':datetime.date })
 
 previous = pd.DataFrame()
 
-directory = u'c:\\GOSZAKUPKI\\PREVIOUS\\'
+directory = u'~/GOSZAKUPKI/PREVIOUS/'
 
 for file in os.listdir(directory):
     if file.endswith(".xls"):
@@ -69,7 +66,7 @@ compare = zakupki_gov.append(previous)
 
 compare = compare.drop_duplicates("Ссылка на тендер", keep="last")
 
-writer = ExcelWriter(u'c:\\GOSZAKUPKI\\compare_{}.xls'.format(datetime.datetime.now().date()), datetime_format='dd.mm.yyyy', engine='xlsxwriter' )
+writer = ExcelWriter(u'home/user/GOSZAKUPKI/compare_{}.xls'.format(datetime.datetime.now().date()), datetime_format='dd.mm.yyyy', engine='xlsxwriter' )
 
 compare.to_excel(writer, 'Итого', index=False)
 
