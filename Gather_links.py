@@ -39,7 +39,7 @@ def gather_links (driver, search_phrases):
 
     for search_phrase in search_phrases:
 
-        print ("Сбор линков по фразе {}".format(search_phrase))
+        print ("{} Сбор линков по фразе {}".format(datetime.now(), search_phrase))
 
         url = make_url(1, search_phrase)
 
@@ -143,7 +143,7 @@ def gather_links (driver, search_phrases):
 
 
 
-    writer = ExcelWriter(u'c:\\GOSZAKUPKI\\links_{}.xls'.format(datetime.now().date()), datetime_format='dd.mm.yyyy')
+    writer = ExcelWriter(u'home/user/GOSZAKUPKI/links_{}.xls'.format(datetime.now().date()), datetime_format='dd.mm.yyyy')
 
     my_list.to_excel(writer, 'Ссылки', index=False)
 
