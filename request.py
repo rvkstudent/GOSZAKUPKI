@@ -13,9 +13,11 @@ headers  = {"Host": "zakupki.gov.ru",
 "Upgrade-Insecure-Requests": "1",
 "Cache-Control": "max-age=0"}
 
+proxies = {'http': 'http://kozlov.r:Fvcnthlfv2019@10.77.20.61:3128/'}
+
 r = requests.get(
     'http://zakupki.gov.ru/epz/order/quicksearch/search.html?morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_50&showLotsInfoHidden=false&fz44=on&fz223=on&ppRf615=on&af=on&ca=on&pc=on&pa=on&currencyId=-1&regionDeleted=false&sortBy=UPDATE_DATE',
-    headers=headers)
+    headers=headers, proxies=proxies)
 
 content = r.content.decode("utf8")
 
@@ -33,6 +35,15 @@ print ("Тендеров нашлось: {}".format (len(tenders)))
 
 for tender in tenders:
 
+    auction_type = ""
+    zakup_status = ""
+    zakup_zakon = ""
+    price = 0
+    procedure_num = ""
+    razmesheno = ""
+    oraganisation = ""
+    obnovleno = ""
+
     tenderTds = tender.findAll("td", {"class": "tenderTd"})
     for tenderTd in tenderTds:
 
@@ -40,17 +51,17 @@ for tender in tenders:
         auction_type = dts[0].get_text().strip(' \t\n')
         zakup_status = dts[1].get_text().split()[0]
         zakup_zakon = dts[1].get_text().split()[3]
-        price = "".join(tenderTd.findAll("dd")[1].findAll("strong")[0].get_text().split())
+        price_text = tenderTd.findAll("dd")[1].findAll("strong")
+        if len(price_text) > 0:
+            price = "".join(price_text[0].get_text().split())
 
 
-    descriptTenderTds = tender.findAll("td", {"class": "descriptTenderTd"})
+    descriptTenderTd = tender.findAll("td", {"class": "descriptTenderTd"})[0]
 
-    for descriptTenderTd in descriptTenderTds:
+    dts = descriptTenderTd.findAll("dt")
+    procedure_num  = dts[0].get_text().split()[1]
 
-        dts = descriptTenderTd.findAll("dt")
-        procedure_num  = dts[0].get_text().split()[1]
-
-        oraganisation = " ".join(descriptTenderTd.findAll("dd", {"class": "nameOrganization"})[0].get_text().split()).replace("Заказчик: ", "")
+    oraganisation = " ".join(descriptTenderTd.findAll("dd", {"class": "nameOrganization"})[0].get_text().split()).replace("Заказчик: ", "")
 
     amountTenderTds = tender.findAll("td", {"class": "amountTenderTd"})
 
