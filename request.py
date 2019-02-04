@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-
+import urllib.request
+import urllib.parse
+from datetime import datetime
 
 headers  = {"Host": "zakupki.gov.ru",
 "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0",
@@ -14,6 +16,8 @@ headers  = {"Host": "zakupki.gov.ru",
 "Cache-Control": "max-age=0"}
 
 proxies = {'http': 'http://kozlov.r:Fvcnthlfv2019@10.77.20.61:3128/'}
+
+
 
 r = requests.get(
     'http://zakupki.gov.ru/epz/order/quicksearch/search.html?morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_50&showLotsInfoHidden=false&fz44=on&fz223=on&ppRf615=on&af=on&ca=on&pc=on&pa=on&currencyId=-1&regionDeleted=false&sortBy=PUBLISH_DATE',
