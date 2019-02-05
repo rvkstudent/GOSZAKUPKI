@@ -6,6 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
+import pickle
 
 proxy_list = list()
 
@@ -30,7 +31,7 @@ content = driver.find_element_by_class_name('proxy__t').get_attribute("outerHTML
 
 driver.close()
 
-print(content)
+#print(content)
 
 soup = BeautifulSoup(content, 'html.parser')
 
@@ -46,6 +47,10 @@ for tr in proxies_rows:
 
 working_proxy = list()
 best_proxy = list()
+
+# with open('proxy_list', 'rb') as inp:
+#     working_proxy = pickle.load(inp)
+
 
 for proxy in proxy_list:
 
@@ -69,6 +74,7 @@ for proxy in proxy_list:
             print("{} работает. Время ответа {}".format(proxy, r.elapsed.microseconds/1000))
             if (r.elapsed.microseconds/1000 < minimum):
                 best_proxy = [proxy,r.elapsed.microseconds]
+                minimum = r.elapsed.microseconds/1000
             working_proxy.append(proxy)
     except Exception:
         print ("Прокси не работает {}")
@@ -76,3 +82,6 @@ for proxy in proxy_list:
 
 print ("Количество прокси нашлось: {}".format (len(working_proxy)))
 print ("Лучший прокси: {}".format (best_proxy))
+
+with open('proxy_list', 'wb') as out:
+    pickle.dump(working_proxy, out)

@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-#from check_connection import connection_proxy
+from check_connection import connection_proxy
 import urllib.request
 import urllib.parse
 from datetime import datetime
@@ -8,28 +8,35 @@ import time
 import re
 import dateutil.relativedelta
 from analise import find_tenders_info
-
-#proxy = connection_proxy()
+import pickle
 
 def request_url(url):
 
-    headers  = {"Host": "zakupki.gov.ru",
-    "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
-    "Accept-Encoding": "gzip, deflate",
-    "Referer": "http://zakupki.gov.ru/epz/main/public/home.html",
-    "Connection": "keep-alive",
-    "Cookie": "routeepz7=1; routeepz0=3; routeepz2=0; _ym_uid=154858942172065130; _ym_d=1548589421; _ym_isad=2",
-    "Upgrade-Insecure-Requests": "1",
-    "Cache-Control": "max-age=0"}
+    #proxy = {'http': 'http://95.213.229.42:80/'}
 
-    proxy = {'http': 'http://95.213.229.42:80/'}
+    tries = 3
 
-    r = requests.get(url, headers=headers, proxies= proxy)
+    while (tries > 0):
 
-    if (r.status_code != 200):
-        print ("Статус код неверный: {}".format(r.status_code))
+        with open('last_proxy', 'rb') as inp:
+            proxy = pickle.load(inp)
+
+        try:
+
+            r = requests.get(url, headers=proxy[1], proxies= proxy[0])
+            #print ("Прокси {} статус {}".format(proxy, r.status_code))
+            if (r.status_code != 200):
+                print("Статус код неверный: {}".format(r.status_code))
+                tries = tries - 1
+                connection_proxy()
+            else:
+                break
+
+        except requests.RequestException:
+            print("Сбой соединения. Осталось попыток {}".format(tries))
+            tries = tries-1
+            connection_proxy()
+
 
     return r
 
@@ -111,9 +118,13 @@ def get_records(city, PriceFrom = '', PriceTo = ''):
 
 if __name__ == "__main__":
 
+    proxy = connection_proxy()
+
     cities = get_cities() #[['5277335', 'Москва'], ['5277327', 'Московская обл']]#
 
     print("Время начала: {}".format(datetime.today()))
+
+    print("Выбран прокси: {}".format(proxy[0]))
 
     total_tenders_count = 0
 
@@ -130,6 +141,7 @@ if __name__ == "__main__":
         if records < 1000:
             print("Записей по {} = {}".format(city[1], records))
             time.sleep(1)
+            find_tenders_info(result[1])
             total_tenders_count = total_tenders_count + records
 
         elif records > 1000:
@@ -169,4 +181,4 @@ if __name__ == "__main__":
 
 
     print("Время окончания: {}".format(datetime.today()))
-    print("Итого тендеров собрано: {} из {}".format(total_records, records_ishodnoe))
+    print("Итого тендеров собрано: {} из {}".format(total_tenders_count, records_ishodnoe))
