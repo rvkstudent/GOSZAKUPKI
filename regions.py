@@ -142,7 +142,7 @@ if __name__ == "__main__":
 
         if records < 1000:
             print("Записей по {} = {}".format(city[1], records))
-            time.sleep(1)
+            #time.sleep(1)
             find_tenders_info(result[1], True)
             total_tenders_count = total_tenders_count + records
 
@@ -153,7 +153,7 @@ if __name__ == "__main__":
             total_records = 0
 
             while (price_from > 0):
-                time.sleep(1)
+                #time.sleep(1)
                 price_from = price_from - step
 
                 if price_from <= 0:
