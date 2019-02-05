@@ -1,5 +1,7 @@
 import requests
 import pickle
+import eventlet
+eventlet.monkey_patch()
 
 
 headers = {"Host": "zakupki.gov.ru",
@@ -19,9 +21,7 @@ def connection_proxy():
     last_proxy = {}
 
     with open('last_proxy', 'rb') as inp:
-       last_proxy = pickle.load(inp)
-
-
+        last_proxy = pickle.load(inp)
 
     # пробуем с последним прокси из файла
 
@@ -30,9 +30,11 @@ def connection_proxy():
             #last_proxy = {'http': 'http://109.173.73.116:8080/'}
 
             try:
-                r = requests.get(
-                    'http://zakupki.gov.ru/epz/order/quicksearch/search.html#',
-                    headers=last_proxy[1], proxies=last_proxy[0])
+
+                with eventlet.Timeout(10):
+                    r = requests.get('http://zakupki.gov.ru/', verify=False, headers=last_proxy[1], proxies=last_proxy[0])
+
+
                 if (r.status_code == 200):
                     connection_proxy = last_proxy[0]
             except requests.RequestException:
@@ -45,7 +47,7 @@ def connection_proxy():
         with open('proxy_list', 'rb') as inp:
             working_proxy = pickle.load(inp)
 
-        proxies = [{'http': 'http://kozlov.r:Fvcnthlfv2019@10.77.20.61:3128/'}, {'http': ''}]
+        proxies = [{'http': 'http://kozlov.r:Fvcnthlfv2019@10.77.20.61:3128/'}]#, {'http': ''}]
 
         proxies.extend(working_proxy)
 
@@ -57,25 +59,26 @@ def connection_proxy():
             print(proxy)
 
             try:
-                r = requests.get(
-                    'http://zakupki.gov.ru/epz/order/quicksearch/search.html#',
-                    headers=headers, proxies=proxy)
+
+                with eventlet.Timeout(1):
+                    r = requests.get('http://zakupki.gov.ru/', verify=False, headers=headers, proxies=proxy)
+                    print(r.status_code)
+
+
                 if (r.status_code == 200):
                     connection_speed = r.elapsed.microseconds / 1000
                     connection_proxy = proxy
-                    if (connection_speed < minimum):
-                        best_proxy = proxy
-                        minimum = connection_speed
+                    if connection_speed < 200:
+                        with open('last_proxy', 'wb') as out:
+                            pickle.dump([connection_proxy, headers], out)
+                        break
+
+            except eventlet.timeout.Timeout:
+                print ("Timeout")
 
             except requests.RequestException:
                 print ("Exception")
 
-
-        if (len(best_proxy) > 0 ):
-            connection_proxy = best_proxy
-
-        with open('last_proxy', 'wb') as out:
-            pickle.dump([connection_proxy, headers], out)
 
     return connection_proxy, headers
 
