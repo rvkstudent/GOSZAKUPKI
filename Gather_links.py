@@ -39,7 +39,7 @@ def gather_links (driver, search_phrases):
 
     for search_phrase in search_phrases:
 
-        print ("{} Сбор линков по фразе {}".format(datetime.now(), search_phrase))
+        print ("{}Сбор линков по фразе {}".format(datetime.now(),search_phrase))
 
         url = make_url(1, search_phrase)
 
