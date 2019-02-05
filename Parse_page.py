@@ -11,7 +11,7 @@ from StyleFrame import StyleFrame
 from StyleFrame import Styler
 from selenium.common.exceptions import TimeoutException
 import pandas as pd
-
+import utils
 
 
 main_url = "http://zakupki.gov.ru"

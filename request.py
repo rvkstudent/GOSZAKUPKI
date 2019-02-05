@@ -1,8 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import urllib.request
-import urllib.parse
-from datetime import datetime
+
 
 headers  = {"Host": "zakupki.gov.ru",
 "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0",
@@ -17,13 +15,9 @@ headers  = {"Host": "zakupki.gov.ru",
 
 proxies = {'http': 'http://kozlov.r:Fvcnthlfv2019@10.77.20.61:3128/'}
 
-
-
 r = requests.get(
-    'http://zakupki.gov.ru/epz/order/quicksearch/search.html?morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_50&showLotsInfoHidden=false&fz44=on&fz223=on&ppRf615=on&af=on&ca=on&pc=on&pa=on&currencyId=-1&regionDeleted=false&sortBy=PUBLISH_DATE',
+    'http://zakupki.gov.ru/epz/order/quicksearch/search.html?morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_50&showLotsInfoHidden=false&fz44=on&fz223=on&ppRf615=on&af=on&ca=on&pc=on&pa=on&currencyId=-1&regionDeleted=false&sortBy=UPDATE_DATE',
     headers=headers, proxies=proxies)
-
-
 
 content = r.content.decode("utf8")
 
@@ -55,7 +49,7 @@ for tender in tenders:
 
         dts = tenderTd.findAll("dt")
         auction_type = dts[0].get_text().strip(' \t\n')
-        zakup_status = " ".join(dts[1].get_text().split('/')[0].split())
+        zakup_status = dts[1].get_text().split()[0]
         zakup_zakon = dts[1].get_text().split()[3]
         price_text = tenderTd.findAll("dd")[1].findAll("strong")
         if len(price_text) > 0:
@@ -68,9 +62,6 @@ for tender in tenders:
     procedure_num  = dts[0].get_text().split()[1]
 
     oraganisation = " ".join(descriptTenderTd.findAll("dd", {"class": "nameOrganization"})[0].get_text().split()).replace("Заказчик: ", "")
-
-    description = " ".join(
-        descriptTenderTd.findAll("dd")[1].get_text().split())
 
     amountTenderTds = tender.findAll("td", {"class": "amountTenderTd"})
 
@@ -88,16 +79,6 @@ for tender in tenders:
     print("Заказчик: {}".format(oraganisation))
     print("Размещено: {}".format(razmesheno))
     print("Обновлено: {}".format(obnovleno))
-    print("Описание: {}".format(description))
-
-    pg_price = price.replace(',','.')
-
-    split_date = razmesheno.split('.')
-    pg_created = "{}-{}-{}".format(split_date[2], split_date[1], split_date[0])
-    split_date = obnovleno.split('.')
-    pg_modified = "{}-{}-{}".format(split_date[2], split_date[1], split_date[0])
-
-    print (pg_created)
 
 #if ("Соболевского" in content):
 #    print(content)
