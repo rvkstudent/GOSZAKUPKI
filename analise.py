@@ -16,12 +16,13 @@ def find_tenders_info(content, to_base):
         zakup_status = ""
         zakup_zakon = ""
         price = 0
-        procedure_num = ""
+        procedure_num = ''
         razmesheno = ""
         oraganisation = ""
         obnovleno = ""
 
         tenderTds = tender.findAll("td", {"class": "tenderTd"})
+
         for tenderTd in tenderTds:
 
             dts = tenderTd.findAll("dt")
@@ -36,7 +37,7 @@ def find_tenders_info(content, to_base):
         descriptTenderTd = tender.findAll("td", {"class": "descriptTenderTd"})[0]
 
         dts = descriptTenderTd.findAll("dt")
-        procedure_num  = dts[0].get_text().split()[1]
+        procedure_num = dts[0].get_text().split()[1]
 
         oraganisation = " ".join(
             descriptTenderTd.findAll(
@@ -55,16 +56,16 @@ def find_tenders_info(content, to_base):
                                   .split()).replace("Размещено: ", "")
             obnovleno = " ".join(lis[1].get_text()\
                                  .split()).replace("Обновлено: ", "")
-    #
-    #     print ("Тип аукциона: {}".format(auction_type))
-    #     print("Статус закупки: {}".format(zakup_status))
-    #     print("Закон: {}".format(zakup_zakon))
-    #     print("Начальная цена: {}".format(price))
-    #     print("Номер процедуры: {}".format(procedure_num))
-    #     print("Заказчик: {}".format(oraganisation))
-    #     print("Размещено: {}".format(razmesheno))
-    #     print("Обновлено: {}".format(obnovleno))
-    #
+
+        # print ("Тип аукциона: {}".format(auction_type))
+        # print("Статус закупки: {}".format(zakup_status))
+        # print("Закон: {}".format(zakup_zakon))
+        # print("Начальная цена: {}".format(price))
+        # print("Номер процедуры: {}".format(procedure_num))
+        # print("Заказчик: {}".format(oraganisation))
+        # print("Размещено: {}".format(razmesheno))
+        # print("Обновлено: {}".format(obnovleno))
+
         split_date = razmesheno.split('.')
         pg_created = "{}-{}-{}".\
             format(split_date[2], split_date[1], split_date[0])
@@ -78,33 +79,31 @@ def find_tenders_info(content, to_base):
             pg_price = str(price)
 
 
-    print("Тендеров нашлось: {}".format(len(tenders)))
+        print("Тендеров нашлось: {}".format(len(tenders)))
 
-    if (to_base == True):
+        if (to_base == True):
 
-        con = None
+            con = None
 
-        try:
-            con = psycopg2.connect(
-                host='localhost',
-                dbname='goszakupki',
-                user='postgres',
-                password='sapromat')
+            try:
+                con = psycopg2.connect(
+                    host='localhost',
+                    dbname='goszakupki',
+                    user='postgres',
+                    password='sapromat')
 
-            cur = con.cursor()
-            cur.execute("INSERT INTO tenders \
-                        VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') \
-                        ON CONFLICT DO NOTHING;".format(
-                        procedure_num, auction_type, zakup_status,
-                        pg_price, pg_created, pg_modified, oraganisation,
-                            description))
+                cur = con.cursor()
+                print ("INSERT INTO tenders VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
+                            pg_price, pg_created, pg_modified, oraganisation, description))
+                cur.execute("INSERT INTO tenders VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
+                            pg_price, pg_created, pg_modified, oraganisation, description))
 
-            con.commit()
+                con.commit()
 
-        except (psycopg2.DatabaseError):
-            if con:
-                con.rollback()
+            except (psycopg2.DatabaseError):
+                if con:
+                    con.rollback()
 
-        finally:
-            if con:
-                con.close()
+            finally:
+                if con:
+                    con.close()

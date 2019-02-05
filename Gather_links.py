@@ -14,7 +14,7 @@ import dateutil.relativedelta
 
 print (datetime.now().date().day)
 
-to_date = datetime.datetime.today() - dateutil.relativedelta.relativedelta(days=7)
+to_date = datetime.today() - dateutil.relativedelta.relativedelta(days=7)
 
 to_date = to_date.strftime('%d.%m.%Y')
 
@@ -144,7 +144,7 @@ def gather_links (driver, search_phrases):
 
 
 
-    writer = ExcelWriter(u'home/user/GOSZAKUPKI/links_{}.xls'.format(datetime.now().date()), datetime_format='dd.mm.yyyy')
+    writer = ExcelWriter(u'c:\\GOSZAKUPKI\\links_{}.xls'.format(datetime.now().date()), datetime_format='dd.mm.yyyy')
 
     my_list.to_excel(writer, 'Ссылки', index=False)
 
