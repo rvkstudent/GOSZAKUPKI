@@ -177,7 +177,7 @@ if __name__ == "__main__":
                 else:
                     price_from = price_from + int((price_to - price_from) / 2) + step + 1
 
-                    print("Степ = {}".format(step))
+                    #print("Степ = {}".format(step))
 
 
             print ("Итого записей: {}".format(total_records))

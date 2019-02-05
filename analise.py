@@ -93,8 +93,8 @@ def find_tenders_info(content, to_base):
                     password='sapromat')
 
                 cur = con.cursor()
-                print ("INSERT INTO tenders VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
-                            pg_price, pg_created, pg_modified, oraganisation, description))
+                #print ("INSERT INTO tenders VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
+                            #pg_price, pg_created, pg_modified, oraganisation, description))
                 cur.execute("INSERT INTO tenders VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
                             pg_price, pg_created, pg_modified, oraganisation, description))
 
