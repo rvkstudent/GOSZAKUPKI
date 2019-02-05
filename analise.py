@@ -1,10 +1,10 @@
-#import psycopg2
+import psycopg2
 import sys
 import requests
 from bs4 import BeautifulSoup
 
 
-def find_tenders_info(content):
+def find_tenders_info(content, to_base):
 
     soup = BeautifulSoup(content, 'html.parser')
 
@@ -80,31 +80,31 @@ def find_tenders_info(content):
 
     print("Тендеров нашлось: {}".format(len(tenders)))
 
-    # con = None
-    #
-    # try:
-    #     con = psycopg2.connect(
-    #         host='localhost',
-    #         dbname='goszakupki',
-    #         user='postgres',
-    #         password='sapromat')
-    #
-    #     cur = con.cursor()
-    #     cur.execute("INSERT INTO tenders \
-    #                 VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') \
-    #                 ON CONFLICT DO NOTHING;".format(
-    #                 procedure_num, auction_type, zakup_status,
-    #                 pg_price, pg_created, pg_modified, oraganisation,
-    #                     description))
-    #
-    #     con.commit()
-    #
-    # except (psycopg2.DatabaseError):
-    #     if con:
-    #         con.rollback()
-    #
-    # finally:
-    #     if con:
-    #         con.close()
+    if (to_base == True):
 
+        con = None
 
+        try:
+            con = psycopg2.connect(
+                host='localhost',
+                dbname='goszakupki',
+                user='postgres',
+                password='sapromat')
+
+            cur = con.cursor()
+            cur.execute("INSERT INTO tenders \
+                        VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') \
+                        ON CONFLICT DO NOTHING;".format(
+                        procedure_num, auction_type, zakup_status,
+                        pg_price, pg_created, pg_modified, oraganisation,
+                            description))
+
+            con.commit()
+
+        except (psycopg2.DatabaseError):
+            if con:
+                con.rollback()
+
+        finally:
+            if con:
+                con.close()
