@@ -24,7 +24,7 @@ def request_url(url):
         try:
 
             r = requests.get(url, headers=proxy[1], proxies= proxy[0])
-            #print ("Прокси {} статус {}".format(proxy, r.status_code))
+            print ("Ответ сервера {}".format(r.elapsed/1000))
             if (r.status_code != 200):
                 print("Статус код неверный: {}".format(r.status_code))
                 tries = tries - 1
@@ -120,7 +120,9 @@ if __name__ == "__main__":
 
     proxy = connection_proxy()
 
-    cities = get_cities() #[['5277335', 'Москва'], ['5277327', 'Московская обл']]#
+    cities = [['5277357', 'Ростовская обл'], ['5277335', 'Москва']] #get_cities() #[['5277335', 'Москва'], ['5277327', 'Московская обл']]#
+
+    print(cities)
 
     print("Время начала: {}".format(datetime.today()))
 
@@ -151,7 +153,7 @@ if __name__ == "__main__":
             total_records = 0
 
             while (price_from > 0):
-                time.sleep(5)
+                time.sleep(1)
                 price_from = price_from - step
 
                 if price_from <= 0:
@@ -160,12 +162,12 @@ if __name__ == "__main__":
                 result =  get_records(city[0], PriceFrom=price_from, PriceTo= price_to)
                 records2 = result[0]
 
-
+                print("По региону {} диапазон от {} до {} записей = {}".format(city[1], price_from, price_to,
+                                                                               records2))
 
                 if records2 < 1000:
 
-                    print("По региону {} диапазон от {} до {} записей = {}".format(city[1], price_from, price_to,
-                                                                                   records2))
+
                     price_to = price_from-1
                     total_records = total_records + records2
                     find_tenders_info(result[1], True)
@@ -173,8 +175,9 @@ if __name__ == "__main__":
 
 
                 else:
-                    price_from = price_from + step
-                    step = step - 100000
+                    price_from = price_from + int((price_to - price_from) / 2) + step + 1
+
+                    print("Степ = {}".format(step))
 
 
             print ("Итого записей: {}".format(total_records))

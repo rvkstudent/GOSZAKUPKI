@@ -79,7 +79,7 @@ def find_tenders_info(content, to_base):
             pg_price = str(price)
 
 
-        print("Тендеров нашлось: {}".format(len(tenders)))
+        #print("Тендеров нашлось: {}".format(len(tenders)))
 
         if (to_base == True):
 
