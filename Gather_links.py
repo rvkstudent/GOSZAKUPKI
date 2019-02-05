@@ -10,10 +10,11 @@ from selenium.common.exceptions import TimeoutException
 from datetime import datetime
 from pandas import ExcelWriter
 import pandas as pd
+import dateutil.relativedelta
 
 print (datetime.now().date().day)
 
-to_date = datetime(datetime.now().date().year, datetime.now().date().month, datetime.now().date().day -7)
+to_date = datetime.datetime.today() - dateutil.relativedelta.relativedelta(days=7)
 
 to_date = to_date.strftime('%d.%m.%Y')
 
