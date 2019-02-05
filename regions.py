@@ -24,7 +24,7 @@ def request_url(url):
         try:
 
             r = requests.get(url, headers=proxy[1], proxies= proxy[0])
-            print ("Ответ сервера {}".format(r.elapsed/1000))
+            #print ("Ответ сервера {}".format(r.elapsed/1000))
             if (r.status_code != 200):
                 print("Статус код неверный: {}".format(r.status_code))
                 tries = tries - 1
@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
     cities = get_cities() #[['5277335', 'Москва'], ['5277327', 'Московская обл']]#  [['5277357', 'Ростовская обл'], ['5277335', 'Москва']]
 
-    print(cities)
+    #print(cities)
 
     print("Время начала: {}".format(datetime.today()))
 
