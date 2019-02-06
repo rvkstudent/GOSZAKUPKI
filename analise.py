@@ -39,23 +39,26 @@ def find_tenders_info(content, to_base):
 
                 dts = tenderTd.findAll("dt")
                 auction_type = dts[0].get_text().strip(' \t\n')
-                if len(dts[1].get_text().split()) == 3:
-                    zakup_status = " ".join(dts[1].get_text().split('/')[0].split())
-                    zakup_zakon = dts[1].get_text().split()[3]
+
+                zakup = dts[1].get_text()
+
+                if len(zakup.split()) == 3:
+                    zakup_status = " ".join(zakup.split('/')[0].split())
+                    zakup_zakon = zakup.split()[3]
 
                 price_text = tenderTd.findAll("dd")[1].findAll("strong")
                 if len(price_text) > 0:
                     price = "".join(price_text[0].get_text().split())
 
 
-            descriptTenderTd = tender.findAll("td", {"class": "descriptTenderTd"})[0]
+            descriptTenderTd = tender.find("td", {"class": "descriptTenderTd"})
 
-            dts = descriptTenderTd.findAll("dt")
-            procedure_num = dts[0].get_text().split()[1]
+            dts = descriptTenderTd.find("dt")
+            procedure_num = dts.get_text().split()[1]
 
             oraganisation = " ".join(
-                descriptTenderTd.findAll(
-                    "dd", {"class": "nameOrganization"})[0]\
+                descriptTenderTd.find(
+                    "dd", {"class": "nameOrganization"})
                 .get_text().split()).replace("Заказчик: ", "")
 
             description = " ".join(
