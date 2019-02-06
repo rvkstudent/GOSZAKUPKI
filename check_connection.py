@@ -37,6 +37,9 @@ def connection_proxy():
 
                 if (r.status_code == 200):
                     connection_proxy = last_proxy[0]
+                    
+            except eventlet.timeout.Timeout:
+                print ("Timeout")
             except requests.RequestException:
                 print("Exception")
 
