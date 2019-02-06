@@ -9,6 +9,15 @@ import re
 import dateutil.relativedelta
 from analise import find_tenders_info
 import pickle
+import time
+
+
+class Profiler(object):
+    def __enter__(self):
+        self._startTime = time.time()
+
+    def __exit__(self, type, value, traceback):
+        print("Elapsed time: {:.3f} sec".format(time.time() - self._startTime))
 
 def request_url(url):
 
@@ -143,7 +152,8 @@ if __name__ == "__main__":
         if records < 1000:
             print("Записей по {} = {}".format(city[1], records))
             #time.sleep(1)
-            find_tenders_info(result[1], True)
+            with Profiler() as p:
+                find_tenders_info(result[1], True)
             total_tenders_count = total_tenders_count + records
 
         elif records > 1000:
@@ -170,7 +180,8 @@ if __name__ == "__main__":
 
                     price_to = price_from-1
                     total_records = total_records + records2
-                    find_tenders_info(result[1], True)
+                    with Profiler() as p:
+                        find_tenders_info(result[1], True)
                     total_tenders_count = total_tenders_count + records2
 
 
