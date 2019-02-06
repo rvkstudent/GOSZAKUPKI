@@ -10,6 +10,8 @@ def find_tenders_info(content, to_base):
 
     tenders = soup.findAll("div", {"class": "registerBox registerBoxBank margBtm20"})
 
+    query = ''
+
     for tender in tenders:
 
         auction_type = ""
@@ -80,10 +82,12 @@ def find_tenders_info(content, to_base):
         else:
             pg_price = str(price)
 
+        query = query +  "INSERT INTO tenders VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
+                            pg_price, pg_created, pg_modified, oraganisation, description)
 
         #print("Тендеров нашлось: {}".format(len(tenders)))
 
-        if (to_base == True):
+    if (to_base == True and len(query) > 0 ):
 
             con = None
 
@@ -97,8 +101,7 @@ def find_tenders_info(content, to_base):
                 cur = con.cursor()
                 #print ("INSERT INTO tenders VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
                             #pg_price, pg_created, pg_modified, oraganisation, description))
-                cur.execute("INSERT INTO tenders VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
-                            pg_price, pg_created, pg_modified, oraganisation, description))
+                cur.execute(query)
 
                 con.commit()
 
