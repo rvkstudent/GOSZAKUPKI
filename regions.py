@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
-#from check_connection import connection_proxy
+from check_connection import connection_proxy
 import urllib.request
 import urllib.parse
 from datetime import datetime
@@ -9,35 +9,44 @@ import time
 import re
 import dateutil.relativedelta
 from analise import find_tenders_info
+import pickle
 
-#proxy = connection_proxy()
+
 
 def request_url(url):
 
-    headers  = {"Host": "zakupki.gov.ru",
-    "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:64.0) Gecko/20100101 Firefox/64.0",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3",
-    "Accept-Encoding": "gzip, deflate",
-    "Referer": "http://zakupki.gov.ru/epz/main/public/home.html",
-    "Connection": "keep-alive",
-    "Cookie": "routeepz7=1; routeepz0=3; routeepz2=0; _ym_uid=154858942172065130; _ym_d=1548589421; _ym_isad=2",
-    "Upgrade-Insecure-Requests": "1",
-    "Cache-Control": "max-age=0"}
+    #proxy = {'http': 'http://95.213.229.42:80/'}
 
-    proxy = {'http': 'http://95.213.229.42:80/'}
+    tries = 3
 
-    r = requests.get(url, headers=headers, proxies= proxy)
+    while (tries > 0):
 
-    if (r.status_code != 200):
-        print ("Статус код неверный: {}".format(r.status_code))
+        with open('last_proxy', 'rb') as inp:
+            proxy = pickle.load(inp)
+
+        try:
+
+            r = requests.get(url, headers=proxy[1], proxies= proxy[0])
+            #print ("Ответ сервера {}".format(r.elapsed/1000))
+            if (r.status_code != 200):
+                print("Статус код неверный: {}".format(r.status_code))
+                tries = tries - 1
+                connection_proxy()
+            else:
+                break
+
+        except requests.RequestException:
+            print("Сбой соединения. Осталось попыток {}".format(tries))
+            tries = tries-1
+            connection_proxy()
+
 
     return r
 
 
 def make_url(region_num, PriceFrom = '', PriceTo = ''):
 
-    to_date = (datetime.today() - dateutil.relativedelta.relativedelta(days=5)).strftime('%d.%m.%Y')
+    to_date = (datetime.today() - dateutil.relativedelta.relativedelta(days=2)).strftime('%d.%m.%Y')
 
     params = urllib.parse.urlencode(
         {'morphology': 'on', 'pageNumber': '1',
@@ -112,9 +121,15 @@ def get_records(city, PriceFrom = '', PriceTo = ''):
 
 if __name__ == "__main__":
 
-    cities = get_cities() #[['5277335', 'Москва'], ['5277327', 'Московская обл']]#
+    proxy = connection_proxy()
+
+    cities = get_cities() #[['5277335', 'Москва'], ['5277327', 'Московская обл']]#  [['5277357', 'Ростовская обл'], ['5277335', 'Москва']]
+
+    print(cities)
 
     print("Время начала: {}".format(datetime.today()))
+
+    print("Выбран прокси: {}".format(proxy[0]))
 
     total_tenders_count = 0
 
@@ -130,7 +145,9 @@ if __name__ == "__main__":
 
         if records < 1000:
             print("Записей по {} = {}".format(city[1], records))
-            time.sleep(1)
+            #time.sleep(1)
+
+            find_tenders_info(result[1], True)
             total_tenders_count = total_tenders_count + records
 
         elif records > 1000:
@@ -140,7 +157,7 @@ if __name__ == "__main__":
             total_records = 0
 
             while (price_from > 0):
-                time.sleep(5)
+                #time.sleep(1)
                 price_from = price_from - step
 
                 if price_from <= 0:
@@ -149,25 +166,27 @@ if __name__ == "__main__":
                 result =  get_records(city[0], PriceFrom=price_from, PriceTo= price_to)
                 records2 = result[0]
 
-
+                print("По региону {} диапазон от {} до {} записей = {}".format(city[1], price_from, price_to,
+                                                                               records2))
 
                 if records2 < 1000:
 
-                    print("По региону {} диапазон от {} до {} записей = {}".format(city[1], price_from, price_to,
-                                                                                   records2))
+
                     price_to = price_from-1
                     total_records = total_records + records2
-                    find_tenders_info(result[1])
+
+                    find_tenders_info(result[1], True)
                     total_tenders_count = total_tenders_count + records2
 
 
                 else:
-                    price_from = price_from + step
-                    step = step - 100000
+                    price_from = price_from + int((price_to - price_from) / 2) + step + 1
+
+                    #print("Степ = {}".format(step))
 
 
             print ("Итого записей: {}".format(total_records))
 
 
     print("Время окончания: {}".format(datetime.today()))
-    print("Итого тендеров собрано: {} из {}".format(total_records, records_ishodnoe))
+    print("Итого тендеров собрано: {} из {}".format(total_tenders_count, records_ishodnoe))
