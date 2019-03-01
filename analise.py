@@ -95,7 +95,7 @@ def find_tenders_info(content, to_base):
             else:
                 pg_price = str(price)
 
-            query = query + "INSERT INTO tenders VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
+            query = query + "INSERT INTO tenders VALUES('{}','{}','{}',{},'{}','{}','{}', '{}',current_timestamp(0)) ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
                                 pg_price, pg_created, pg_modified, oraganisation, description)
 
 
