@@ -141,8 +141,8 @@ def find_tenders_info(content, to_base):
 
 def find_tsc_tenders():
 
-    query = "update tenders_temp set tsv = to_tsvector('ru',description);create index on tenders_temp using gin(tsv);insert into tenders_tsc SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, words.phrase FROM tenders_temp, words  WHERE tenders_temp.tsv @@ plainto_tsquery('ru',words.phrase) ON CONFLICT DO NOTHING;"
+    query = "update tenders_temp set tsv = to_tsvector('ru',description);create index on tenders_temp using gin(tsv);insert into tenders_tsc (tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, phrase) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, words.phrase FROM tenders_temp, words  WHERE tenders_temp.tsv @@ plainto_tsquery('ru',words.phrase) ON CONFLICT DO NOTHING;"
 
-    query = query + "insert into tenders SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found FROM tenders_temp ON CONFLICT DO NOTHING;DELETE FROM tenders_temp;"
+    query = query + "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found FROM tenders_temp ON CONFLICT DO NOTHING;DELETE FROM tenders_temp;"
 
     execute_query(query)
