@@ -8,7 +8,7 @@ from datetime import datetime
 import time
 import re
 import dateutil.relativedelta
-from analise import find_tenders_info
+from analise import find_tenders_info, find_tsc_tenders
 import pickle
 
 
@@ -187,6 +187,7 @@ if __name__ == "__main__":
 
             print ("Итого записей: {}".format(total_records))
 
+    find_tsc_tenders()
 
     print("Время окончания: {}".format(datetime.today()))
     print("Итого тендеров собрано: {} из {}".format(total_tenders_count, records_ishodnoe))

@@ -13,6 +13,39 @@ class Profiler(object):
     def __exit__(self, type, value, traceback):
         print("Elapsed time: {:.3f} sec".format(time.time() - self._startTime))
 
+
+def execute_query(query):
+    with Profiler() as p:
+
+        con = None
+
+        try:
+            con = psycopg2.connect(
+                host='localhost',
+                dbname='goszakupki',
+                user='postgres',
+                password='sapromat')
+
+            cur = con.cursor()
+
+            cur.execute(query)
+
+            con.commit()
+
+
+        except psycopg2.DatabaseError as error:
+
+            print(error)
+            print(query)
+
+            if con:
+                con.rollback()
+
+        finally:
+            if con:
+                con.close()
+
+
 def find_tenders_info(content, to_base):
 
     soup = BeautifulSoup(content, 'html.parser')
@@ -98,38 +131,18 @@ def find_tenders_info(content, to_base):
 
             query = query + "INSERT INTO tenders_temp VALUES('{}','{}','{}',{},'{}','{}','{}', '{}',current_timestamp(0)) ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
                                 pg_price, pg_created, pg_modified, oraganisation, description)
-                        
-            query = query + "insert into tenders_tsc SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, words.phrase FROM tenders_temp, words  WHERE to_tsvector('ru',tenders_temp.description) @@ plainto_tsquery('ru',words.phrase) ON CONFLICT DO NOTHING;"
-            
-            #query = query + "insert into tenders SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found FROM tenders_temp ON CONFLICT DO NOTHING;DELETE FROM tenders_temp;"
-            
 
-        
+
     print("Тендеров обработано: {}".format(len(tenders)))
 
-    with Profiler() as p:
-        if (to_base == True and len(query) > 0 ):
+    execute_query(query)
 
-                con = None
 
-                try:
-                    con = psycopg2.connect(
-                        host='localhost',
-                        dbname='goszakupki',
-                        user='postgres',
-                        password='sapromat')
 
-                    cur = con.cursor()
-                    #print ("INSERT INTO tenders VALUES('{}','{}','{}',{},'{}','{}','{}', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
-                                #pg_price, pg_created, pg_modified, oraganisation, description))
-                    cur.execute(query)
+def find_tsc_tenders():
 
-                    con.commit()
+    query = "update tenders_temp set tsv = to_tsvector('ru',description);create index on tenders_temp using gin(tsv);insert into tenders_tsc SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, words.phrase FROM tenders_temp, words  WHERE tenders_temp.tsv @@ plainto_tsquery('ru',words.phrase) ON CONFLICT DO NOTHING;"
 
-                except (psycopg2.DatabaseError):
-                    if con:
-                        con.rollback()
+    query = query + "insert into tenders SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found FROM tenders_temp ON CONFLICT DO NOTHING;DELETE FROM tenders_temp;"
 
-                finally:
-                    if con:
-                        con.close()
+    execute_query(query)
