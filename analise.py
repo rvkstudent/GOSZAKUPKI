@@ -96,7 +96,7 @@ def find_tenders_info(content, to_base):
                 .get_text().split()).replace("Заказчик: ", "")
 
             description = " ".join(
-                descriptTenderTd.findAll("dd")[1].get_text().split())
+                descriptTenderTd.findAll("dd")[1].get_text().split()).replace('\'', '\"')
 
             amountTenderTds = tender.findAll("td", {"class": "amountTenderTd"})
 

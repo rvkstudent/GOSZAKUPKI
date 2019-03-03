@@ -46,7 +46,7 @@ def request_url(url):
 
 def make_url(region_num, PriceFrom = '', PriceTo = ''):
 
-    to_date = (datetime.today() - dateutil.relativedelta.relativedelta(days=2)).strftime('%d.%m.%Y')
+    to_date = (datetime.today() - dateutil.relativedelta.relativedelta(days=7)).strftime('%d.%m.%Y')
 
     params = urllib.parse.urlencode(
         {'morphology': 'on', 'pageNumber': '1',
@@ -123,7 +123,7 @@ if __name__ == "__main__":
 
     proxy = connection_proxy()
 
-    cities = get_cities() #[['5277335', 'Москва'], ['5277327', 'Московская обл']]#  [['5277357', 'Ростовская обл'], ['5277335', 'Москва']]
+    cities = [['5277335', 'Москва'], ['5277327', 'Московская обл']]#  [['5277357', 'Ростовская обл'], ['5277335', 'Москва']] #get_cities() #
 
     print(cities)
 
@@ -180,7 +180,10 @@ if __name__ == "__main__":
 
 
                 else:
-                    price_from = price_from + int((price_to - price_from) / 2) + step + 1
+                    if(price_to == ''):
+                        price_from = price_from + 2000000
+                    else:
+                        price_from = price_from + int((price_to - price_from) / 2) + step + 1
 
                     #print("Степ = {}".format(step))
 
