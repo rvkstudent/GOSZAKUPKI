@@ -15,6 +15,9 @@ class Profiler(object):
 
 
 def execute_query(query):
+
+    result = ''
+
     with Profiler() as p:
 
         con = None
@@ -30,13 +33,14 @@ def execute_query(query):
 
             cur.execute(query)
 
+            result = cur.fetchone()
+
             con.commit()
 
 
         except psycopg2.DatabaseError as error:
 
             print(error)
-            print(query)
 
             if con:
                 con.rollback()
@@ -44,7 +48,7 @@ def execute_query(query):
         finally:
             if con:
                 con.close()
-
+    return result
 
 def find_tenders_info(content, to_base):
 
@@ -141,8 +145,25 @@ def find_tenders_info(content, to_base):
 
 def find_tsc_tenders():
 
-    query = "update tenders_temp set tsv = to_tsvector('ru',description);create index on tenders_temp using gin(tsv);insert into tenders_tsc (tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, phrase) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, words.phrase FROM tenders_temp, words  WHERE tenders_temp.tsv @@ plainto_tsquery('ru',words.phrase) ON CONFLICT DO NOTHING;"
+    rows_before = execute_query(
+        "select count(*) from tenders_tsc;")
 
-    query = query + "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found FROM tenders_temp ON CONFLICT DO NOTHING;DELETE FROM tenders_temp;"
+
+    execute_query("update tenders_temp set tsv = to_tsvector('ru',description);create index on tenders_temp using gin(tsv);" )
+
+    result = execute_query("insert into tenders_tsc (tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, phrase) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, words.phrase FROM tenders_temp, words  WHERE tenders_temp.tsv @@ plainto_tsquery('ru',words.phrase) ON CONFLICT DO NOTHING;")
+
+    rows_after = execute_query(
+        "select count(*) from tenders_tsc;")
+
+    last_update = "Строк добавлено {}".format(rows_after[0] - rows_before[0])
+
+    query = "delete from tenders_stat; insert into tenders_stat values ('{}', current_timestamp(0));".format(last_update)
+
+    print(query)
+
+    execute_query(query)
+
+    query = "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found FROM tenders_temp ON CONFLICT DO NOTHING;DELETE FROM tenders_temp;"
 
     execute_query(query)
