@@ -1,0 +1,11 @@
+from analise import execute_query
+import pandas as pd
+
+df = pd.read_excel('tender.xlsx')
+
+for row in df.iterrows():
+    procedure_id = row[1][0]
+    comment = row[1][13]
+    query = "update tenders_tsc set comment = '{}' where tender_id = '{}'".format(comment, procedure_id)
+    execute_query(query)
+
