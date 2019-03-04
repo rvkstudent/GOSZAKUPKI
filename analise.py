@@ -145,10 +145,10 @@ def find_tsc_tenders():
 
 
 
-    execute_query("update tenders_temp set tsv = to_tsvector('ru',description);create index on tenders_temp using gin(tsv);" )
+    execute_query("update tenders_temp set tsv = to_tsvector('ru',description);create index textsearch_idx on tenders_temp using gin(tsv);" )
 
     execute_query(
-        "insert into tenders_stat values (current_timestamp(0),'',(select count(*) from tenders_tsc),'', 'update_tsc');")
+        "insert into tenders_stat values (current_timestamp(0),'',(select count(*) from tenders_tsc), 'update_tsc');")
 
     result = execute_query("insert into tenders_tsc (tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, phrase, region) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, words.phrase, tenders_temp.region FROM tenders_temp, words  WHERE tenders_temp.tsv @@ plainto_tsquery('ru',words.phrase) ON CONFLICT DO NOTHING;")
 
@@ -156,6 +156,6 @@ def find_tsc_tenders():
         "update tenders_stat set after = (select count(*) from tenders_tsc), last_update = current_timestamp(0) where change = 'update_tsc';")
 
 
-    query = "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, region) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, tenders_temp.region FROM tenders_temp ON CONFLICT DO NOTHING;DELETE FROM tenders_temp;"
+    query = "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, region) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, tenders_temp.region FROM tenders_temp ON CONFLICT DO NOTHING;"#DELETE FROM tenders_temp;"
 
     execute_query(query)
