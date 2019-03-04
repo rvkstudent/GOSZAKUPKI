@@ -78,8 +78,11 @@ def find_tenders_info(content, to_base, region):
 
                 zakup = dts[1].get_text()
 
-                if len(zakup.split()) == 3:
+                #print(len(zakup.split()))
+
+                if len(zakup.split()) > 3:
                     zakup_status = " ".join(zakup.split('/')[0].split())
+                    #print(zakup_status)
                     zakup_zakon = zakup.split()[3]
 
                 price_text = tenderTd.findAll("dd")[1].findAll("strong")
