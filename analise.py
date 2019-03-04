@@ -33,8 +33,6 @@ def execute_query(query):
 
             cur.execute(query)
 
-            result = cur.fetchone()
-
             con.commit()
 
 
