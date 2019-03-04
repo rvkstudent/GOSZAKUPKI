@@ -50,7 +50,7 @@ def execute_query(query):
                 con.close()
     return result
 
-def find_tenders_info(content, to_base):
+def find_tenders_info(content, to_base, region):
 
     soup = BeautifulSoup(content, 'html.parser')
 
@@ -133,8 +133,8 @@ def find_tenders_info(content, to_base):
             else:
                 pg_price = str(price)
 
-            query = query + "INSERT INTO tenders_temp VALUES('{}','{}','{}',{},'{}','{}','{}', '{}',current_timestamp(0)) ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
-                                pg_price, pg_created, pg_modified, oraganisation, description)
+            query = query + "INSERT INTO tenders_temp VALUES('{}','{}','{}',{},'{}','{}','{}', '{}',current_timestamp(0), '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
+                                pg_price, pg_created, pg_modified, oraganisation, description, region)
 
 
     print("Тендеров обработано: {}".format(len(tenders)))
@@ -151,19 +151,19 @@ def find_tsc_tenders():
 
     execute_query("update tenders_temp set tsv = to_tsvector('ru',description);create index on tenders_temp using gin(tsv);" )
 
-    result = execute_query("insert into tenders_tsc (tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, phrase) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, words.phrase FROM tenders_temp, words  WHERE tenders_temp.tsv @@ plainto_tsquery('ru',words.phrase) ON CONFLICT DO NOTHING;")
+    result = execute_query("insert into tenders_tsc (tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, phrase, region) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, words.phrase, tenders_temp.region FROM tenders_temp, words  WHERE tenders_temp.tsv @@ plainto_tsquery('ru',words.phrase) ON CONFLICT DO NOTHING;")
 
     rows_after = execute_query(
         "select count(*) from tenders_tsc;")
 
     last_update = "Строк добавлено {}".format(rows_after[0] - rows_before[0])
 
-    query = "delete from tenders_stat; insert into tenders_stat values ('{}', current_timestamp(0));".format(last_update)
+    query = "delete from tenders_stat; insert into tenders_stat values ('{}', current_timestamp(0), 'changes');".format(last_update)
 
     print(query)
 
     execute_query(query)
 
-    query = "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found FROM tenders_temp ON CONFLICT DO NOTHING;DELETE FROM tenders_temp;"
+    query = "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, region) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, tenders_temp.region FROM tenders_temp ON CONFLICT DO NOTHING;DELETE FROM tenders_temp;"
 
     execute_query(query)
