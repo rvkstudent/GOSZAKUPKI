@@ -46,7 +46,7 @@ def request_url(url):
 
 def make_url(region_num, PriceFrom = '', PriceTo = ''):
 
-    to_date = (datetime.today() - dateutil.relativedelta.relativedelta(days=10)).strftime('%d.%m.%Y')
+    to_date = (datetime.today() - dateutil.relativedelta.relativedelta(days=3)).strftime('%d.%m.%Y')
 
     params = urllib.parse.urlencode(
         {'morphology': 'on', 'pageNumber': '1',
