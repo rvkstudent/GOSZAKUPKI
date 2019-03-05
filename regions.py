@@ -101,17 +101,19 @@ def get_records(city, PriceFrom = '', PriceTo = ''):
     soup = BeautifulSoup(content, 'html.parser')
 
     if r.status_code == 200 and "Поиск не дал результатов" not in content:
+        try:
+            raw_records = soup.findAll("p", {"class": "allRecords"})[0]
+            records = raw_records.findAll("strong")[0].get_text()
+            raw_records = raw_records.contents
+            records = int("".join(re.findall(r'\d', records)))
 
-        raw_records = soup.findAll("p", {"class": "allRecords"})[0]
-        records = raw_records.findAll("strong")[0].get_text()
-        raw_records = raw_records.contents
-        records = int("".join(re.findall(r'\d', records)))
+            if records >= 1000:
 
-        if records >= 1000:
+                records = int("".join(re.findall(r'\d', raw_records[2])))
 
-            records = int("".join(re.findall(r'\d', raw_records[2])))
-
-            print ("Больше тысячи: {}".format(records))
+                print ("Больше тысячи: {}".format(records))
+        except Exception as e:
+            print (e)
 
     if records > 500:
         r = request_url(url.replace("pageNumber=1", "pageNumber=2"))
