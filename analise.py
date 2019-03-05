@@ -68,6 +68,7 @@ def find_tenders_info(content, to_base, region):
             razmesheno = ""
             oraganisation = ""
             obnovleno = ""
+            tender_link = ""
 
             tenderTds = tender.findAll("td", {"class": "tenderTd"})
 
@@ -93,6 +94,11 @@ def find_tenders_info(content, to_base, region):
             descriptTenderTd = tender.find("td", {"class": "descriptTenderTd"})
 
             dts = descriptTenderTd.find("dt")
+
+            tender_link = dts.find('a', href=True)['href']
+            if 'http' not in tender_link:
+                tender_link = 'http://zakupki.gov.ru{}'.format(tender_link)
+
             procedure_num = dts.get_text().split()[1]
 
             oraganisation = " ".join(
@@ -134,8 +140,8 @@ def find_tenders_info(content, to_base, region):
             else:
                 pg_price = str(price)
 
-            query = query + "INSERT INTO tenders_temp VALUES('{}','{}','{}',{},'{}','{}','{}', '{}',current_timestamp(0), '', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
-                                pg_price, pg_created, pg_modified, oraganisation, description, region)
+            query = query + "INSERT INTO tenders_temp VALUES('{}','{}','{}',{},'{}','{}','{}', '{}',current_timestamp(0), '', '{}', '{}') ON CONFLICT DO NOTHING;".format(procedure_num, auction_type, zakup_status,
+                                pg_price, pg_created, pg_modified, oraganisation, description, region, tender_link)
 
 
     print("Тендеров обработано: {}".format(len(tenders)))
@@ -153,12 +159,12 @@ def find_tsc_tenders():
     execute_query(
         "update tenders_stat set last_update = current_timestamp(0), before = (select count(*) from tenders_tsc) where  change = 'update_tsc';")
 
-    result = execute_query("insert into tenders_tsc (tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, phrase, region) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, words.phrase, tenders_temp.region FROM tenders_temp, words  WHERE tenders_temp.tsv @@ plainto_tsquery('ru',words.phrase) ON CONFLICT DO NOTHING;")
+    result = execute_query("insert into tenders_tsc (tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, phrase, region, tender_link) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, words.phrase, tenders_temp.region, tenders_temp.tender_link FROM tenders_temp, words  WHERE tenders_temp.tsv @@ plainto_tsquery('ru',words.phrase) ON CONFLICT(tender_id) DO NOTHING;")
 
     execute_query(
         "update tenders_stat set after = (select count(*) from tenders_tsc), last_update = current_timestamp(0) where change = 'update_tsc';")
 
 
-    query = "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, region) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, tenders_temp.region FROM tenders_temp ON CONFLICT DO NOTHING;"#DELETE FROM tenders_temp;"
+    query = "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, region, tender_link) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, tenders_temp.region, tenders_temp.tender_link FROM tenders_temp ON CONFLICT DO NOTHING;"#DELETE FROM tenders_temp;"
 
     execute_query(query)
