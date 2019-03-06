@@ -168,3 +168,7 @@ def find_tsc_tenders():
     query = "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, region, tender_link) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, tenders_temp.region, tenders_temp.tender_link FROM tenders_temp ON CONFLICT DO NOTHING;DELETE FROM tenders_temp;"
 
     execute_query(query)
+
+    execute_query("update tenders_tsc set tsv = to_tsvector('ru',description);DROP INDEX textsearch_idx; create index textsearch_idx on tenders_tsc using gin(tsv);")
+
+    execute_query("DELETE FROM tenders_tsc WHERE tender_id in (SELECT tender_id FROM tenders_tsc, stop_words WHERE tenders_tsc.tsv @@ plainto_tsquery('ru',stop_words.s_word));")
