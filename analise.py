@@ -165,6 +165,6 @@ def find_tsc_tenders():
         "update tenders_stat set after = (select count(*) from tenders_tsc), last_update = current_timestamp(0) where change = 'update_tsc';")
 
 
-    query = "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, region, tender_link) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, tenders_temp.region, tenders_temp.tender_link FROM tenders_temp ON CONFLICT DO NOTHING;"#DELETE FROM tenders_temp;"
+    query = "insert into tenders(tender_id, auction_type, zakup_status, price, date_created, date_modified, organisation, description, date_found, region, tender_link) SELECT tenders_temp.tender_id, tenders_temp.auction_type, tenders_temp.zakup_status, tenders_temp.price, tenders_temp.date_created, tenders_temp.date_modified, tenders_temp.organisation, tenders_temp.description, tenders_temp.date_found, tenders_temp.region, tenders_temp.tender_link FROM tenders_temp ON CONFLICT DO NOTHING;DELETE FROM tenders_temp;"
 
     execute_query(query)
