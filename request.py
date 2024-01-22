@@ -13,7 +13,7 @@ headers  = {"Host": "zakupki.gov.ru",
 "Upgrade-Insecure-Requests": "1",
 "Cache-Control": "max-age=0"}
 
-proxies = {'http': 'http://kozlov.r:Fvcnthlfv2019@10.77.20.61:3128/'}
+proxies = {}
 
 r = requests.get(
     'http://zakupki.gov.ru/epz/order/quicksearch/search.html?morphology=on&pageNumber=1&sortDirection=false&recordsPerPage=_50&showLotsInfoHidden=false&fz44=on&fz223=on&ppRf615=on&af=on&ca=on&pc=on&pa=on&currencyId=-1&regionDeleted=false&sortBy=UPDATE_DATE',
